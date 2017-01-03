@@ -1,0 +1,15 @@
+{
+  "name": "Anadea_task1",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
