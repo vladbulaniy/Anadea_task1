@@ -1,0 +1,133 @@
+body{
+	background: url(../img/bg-light-4868.png);
+    font-family:  Georgia, serif;
+}
+
+#Header{
+    background-color: #333333;
+    padding: 20px 0;
+    height: 70px;
+    padding-left: 40px;
+}
+
+#changLeng{
+    width: 150px;
+    height: 30px;
+}
+
+input{
+    height: 35px;
+    width: 70%;
+    min-width: 100px;
+    border-radius: 5px;
+    
+}
+
+.choose{
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    border: 1px solid #C7C7C7;
+    width: 15%;
+    margin-top: -3px;
+}
+
+
+
+#HeaderText{
+    color: white;
+    font-size: 150%;
+}
+
+.navbar-form {
+     width: 90%;
+ }
+ 
+
+#Post{
+    color: white;
+    background-color: red;
+    font-size: 120%;
+    padding: 5px 15px;
+    cursor: pointer;
+    float: left;
+}
+
+#changLeng{
+    float: left;
+    margin: 3px 5px;
+    width: 130px;
+}
+
+#changLeng img{
+    margin-top: -5px;
+}
+#changer{
+    float: left;
+    width: 50px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: black;
+}
+
+#changer img{
+    float: left;
+    margin-top: 0px;
+}
+
+.ital{
+    display: none;
+}
+
+.baners{
+    width: 250px;
+    height: 260px;
+    margin: 5px;
+}
+
+.baners img{
+    width: 250px;
+    height: 250px;
+} 
+
+.cell{
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+.imgOfAdv{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.footerOfAdv{
+    background-color: #F7F7F7;
+    margin: 0 -10px -20px -10px;
+    padding: 5px 10px;
+    color: #BBBBBB;
+}
+
+.headOfcontentOfAdv{
+    font-weight: bold;
+}
+
+.date{
+    margin-top: -8px;
+}
+
+.price{
+    padding: 5px;
+    background-color: #FF2929;
+    color:white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    display: none;
+    font-family: arial;
+}

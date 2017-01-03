@@ -1,0 +1,283 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="windows-1251">
+<title>Part 1</title>
+
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/> -->
+
+<link rel="stylesheet" href="libs/bootstrap-3.3.5-dist/css/bootstrap.css" media="all" rel="stylesheet" type="text/css"/>
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> --> 
+<script type="text/javascript" src="libs/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="libs/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/js.js"></script>
+</head>
+
+<body>
+
+<div  class="container-fluid">
+ 
+ <div id="Header" class="row-fluid" style="outline: 1px solid red ">
+    <div class="col-xs-9" id="HeaderText">Classsified Ads</div>
+    
+    <div class="col-xs-3">
+      <div id="Post"> Post your Ad</div> 
+      <div id="changLeng">
+        <img style="float: left;" src="img/GB.png" width="34" height="34" />
+        <div id="changer" style="float: left;"><img src="img/circle_grey.png" width="24" height="24" /></div>
+        <img style="float: right;" src="img/it.png" width="34" height="34" />
+      </div> 
+    </div>
+    
+  </div>  
+  
+  <div class="row-fluid">
+
+  <nav class="navbar navbar-default navbar-static">
+  <div class="container-fluid">
+    
+    <div class="collapse navbar-collapse js-navbar">
+      <ul class="nav navbar-nav">        
+        <li class="dropdown">
+          <a style="font-weight: bold;" id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown">
+            Los Angeles
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">New Yourk</a></li>
+            <li><a href="#">Berlin</a></li>
+            <li><a href="#">Kiev</a></li>            
+          </ul>
+        </li>
+      </ul>
+    <form class="navbar-form pull-left">
+      <input type="text"  class="span8" placeholder="What are you looking?" />
+
+      <!-- Кнопка с выпадающим меню -->
+      <div class="btn-group choose">
+      <div type="button" data-toggle="dropdown" class="btn dropdown-toggle ">
+      Choose rubric
+      <span class="caret"></span>
+    </div>
+    <!-- Выпадающее меню -->
+    <ul class="dropdown-menu">
+      <!-- Пункты меню -->
+      <li><a href="#">Sale</a></li>
+      <li><a href="#">New car</a></li>      
+      <li><a href="#">Use car</a></li>
+    </ul>
+  </div>
+
+      <button type="submit" class="btn">Search</button>
+    
+    </form>
+    </div>
+  </div>
+  </nav>    
+  </div>
+
+ <div class="row">
+   <div class="col-xs-9">
+     <div class="row-fluid">
+     
+       <div class="col-xs-8">
+         <div class="row-fluid">
+           <div class="col-xs-6">
+             
+             <div class="cell" data-background-color='' data-price='2.300' >
+              <div class="price">	&#8364;</div>
+               <div class="imgOfAdv"><img src="img/cars/73c.jpg" width="100%" /></div>
+               <div class="contentOfAdv">
+                 <p class="headOfcontentOfAdv">BMW 325i</p>                 
+                 <p class="textOfAdv eng">Cars are an essential part of many people is lives nowadays. </p>
+                 <p class="textOfAdv ital">Le automobili sono una parte essenziale della vita di molte persone al giorno d'oggi. </p>
+               </div>
+               <div class="footerOfAdv">
+                 <p>Cars >> <span>Honda</span></p>
+                 <p class="date"><span class="day">Today </span><span class="time">11:01 am</span></p>
+               </div>
+             </div>
+           
+           </div>
+           <div class="col-xs-6">
+           
+           <div class="cell" data-background-color='' data-price='2000' >
+             <div class="price">	&#8364;</div>
+               <div class="imgOfAdv"></div>
+               <div class="contentOfAdv">
+                 <p class="headOfcontentOfAdv">Bonita van familar</p>
+                 <p class="textOfAdv eng">Cars are an essential part of many people is lives nowadays. Since their appearance many things have changed. Travelling from one place to another became easier and faster. Besides when we go by car, comfort during the trip is guaranteed.</p>
+                 <p class="textOfAdv ital">Le automobili sono una parte essenziale della vita di molte persone al giorno d'oggi. Dal momento che il loro aspetto molte cose sono cambiate. Dal momento che il loro aspetto molte cose sono cambiate. Viaggiando da un luogo all'altro è diventato più facile e veloce. </p>
+               </div>
+               <div class="footerOfAdv">
+                 <p>Cars >> <span>Honda</span></p>
+                 <p class="date"><span class="day">Today </span><span class="time">11:01 am</span></p>
+               </div>
+             </div>
+             
+             <div class="cell" data-background-color='' data-price='' >
+             <div class="price">	&#8364;</div>
+               <div class="imgOfAdv"></div>
+               <div class="contentOfAdv">
+                 <p class="headOfcontentOfAdv">Limpio</p>
+                 <p class="textOfAdv eng">Cars are an essential part of many people is lives nowadays. Since their appearance many things have changed. Travelling from one place to another became easier and faster. Besides when we go by car, comfort during the trip is guaranteed.</p>
+                 <p class="textOfAdv ital">Le automobili sono una parte essenziale della vita di molte persone al giorno d'oggi. Dal momento che il loro aspetto molte cose sono cambiate. Dal momento che il loro aspetto molte cose sono cambiate. Viaggiando da un luogo all'altro è diventato più facile e veloce. </p>
+                </div>
+               <div class="footerOfAdv">
+                 <p>Cars >> <span>Honda</span></p>
+                 <p class="date"><span class="day">Today </span><span class="time">11:01 am</span></p>
+               </div>
+             </div>
+           </div>
+         </div>
+         
+         <div class="row-fluid">
+           <div class="col-xs-6 big">
+             <div class="cell" data-background-color='yellow' data-price='1.568.000'>
+             <div class="price">	&#8364;</div>
+               <div class="imgOfAdv"><img src="img/cars/2f7a503524247ba10b1624e0e8b5c2f0.jpg" width="100%" /></div>
+               <div class="contentOfAdv">
+                 <p class="headOfcontentOfAdv">Opel Blitz Firetruck</p>
+                 <p class="textOfAdv eng">Cars are an essential part of many people is lives nowadays. Since their appearance many things have changed. Travelling from one place to another became easier and faster. Besides when we go by car, comfort during the trip is guaranteed. There are many types of cars: small, large, cargo сars, minivans, jeeps. All of them are multifunctional. First and the most important role of the car is driving to work and back. Many people in big cities live in the suburbs but work in the downtown. </p>
+                 <p class="textOfAdv ital">Le automobili sono una parte essenziale della vita di molte persone al giorno d'oggi. Dal momento che il loro aspetto molte cose sono cambiate. Viaggiando da un luogo all'altro è diventato più facile e veloce. Inoltre quando andiamo in macchina, il comfort durante il viaggio è garantito. Ci sono molti tipi di vetture: piccoli, grandi, сars carico, minivan, jeep. Tutti sono multifunzionali. In primo luogo e il ruolo più importante della macchina sta guidando al lavoro e ritorno. Molte persone in grandi città vivono in periferia ma lavorano nel centro della città. </p>
+               </div>
+               <div class="footerOfAdv">
+                 <p>Cars >> <span>Opel</span></p>
+                 <p class="date"><span class="day">Today </span><span class="time">11:01 am</span></p>
+               </div>
+             </div>       
+                                 
+           </div> <!-- col-xs-6 -->
+           
+           <div class="col-xs-6">
+             <div class="cell" data-background-color='' data-price='25.600' >
+             <div class="price">	&#8364;</div>
+               <div class="imgOfAdv"><img src="img/cars/bmw_5.jpg" width="100%" /></div>
+               <div class="contentOfAdv">
+                 <p class="headOfcontentOfAdv">BMW 5series</p>
+                 <p class="textOfAdv eng">Cars are an essential part of many people is lives nowadays. Since their appearance many things have changed. </p>
+                 <p class="textOfAdv ital">Le automobili sono una parte essenziale della vita di molte persone al giorno d'oggi. </p>
+               </div>
+               <div class="footerOfAdv">
+                 <p>Cars >> <span>BMW</span></p>
+                 <p class="date"><span class="day">Today </span><span class="time">11:01 am</span></p>
+               </div>
+             </div>       
+                                 
+           </div> <!-- col-xs-6 -->
+         </div> <!-- row -->
+         
+         <div class="row-fluid">
+           <div class="col-xs-6">
+             <div class="cell" data-background-color='' data-price=''>
+             <div class="price">	&#8364;</div>
+               <div class="imgOfAdv"><img src="img/cars/corvet.jpg" width="100%" /></div>
+               <div class="contentOfAdv">
+                 <p class="headOfcontentOfAdv">Corvet</p>
+                 <p class="textOfAdv eng">Old car. It doesn't work. </p>
+                 <p class="textOfAdv ital">Vecchia macchina. Non funziona.. </p>
+               </div>
+               <div class="footerOfAdv">
+                 <p>Cars >> <span>Corvet</span></p>
+                 <p class="date"><span class="day">Today </span><span class="time">11:01 am</span></p>
+               </div>
+             </div>
+           </div> <!-- col-xs-6 -->
+           
+           <div class="col-xs-6">
+             <div class="cell" data-background-color='yellow' data-price='25.000'>
+             <div class="price">	&#8364;</div>
+               <div class="imgOfAdv"><img src="img/cars/lambo.jpg" width="100%" /></div>
+               <div class="contentOfAdv">
+                 <p class="headOfcontentOfAdv">lamborghini aventador</p>
+                 <p class="textOfAdv eng">Cars are an essential part of many people is lives nowadays. Since their appearance many things have changed. Travelling from one place to another became easier and faster. Besides when we go by car, comfort during the trip is guaranteed. There are many types of cars: small, large, cargo сars, minivans, jeeps. </p>
+                 <p class="textOfAdv ital">Le automobili sono una parte essenziale della vita di molte persone al giorno d'oggi. Dal momento che il loro aspetto molte cose sono cambiate. Viaggiando da un luogo all'altro è diventato più facile e veloce. Inoltre quando andiamo in macchina, il comfort durante il viaggio è garantito. </p>
+               </div>
+               <div class="footerOfAdv">
+                 <p>Cars >> <span>lamborghini</span></p>
+                 <p class="date"><span class="day">Yesteday </span><span class="time">11:01 am</span></p>
+               </div>
+             </div>
+           </div> <!-- col-xs-6 -->
+         </div> <!-- row -->
+            
+       </div> <!-- col-xs-8 -->
+       
+       
+       <div class="col-xs-4">
+         <div class="cell" data-background-color='yellow' data-price=''>
+         <div class="price">	&#8364;</div>
+           <div class="imgOfAdv"><img src="img/cars/mustang.jpg" width="100%" /></div>
+           <div class="contentOfAdv">
+             <p class="headOfcontentOfAdv">Mustang</p>
+             <p class="textOfAdv eng">Cars are an essential part of many people is lives nowadays. Since their appearance many things have changed. Travelling from one place to another became easier and faster. Besides when we go by car, comfort during the trip is guaranteed. </p>
+             <p class="textOfAdv ital">Le automobili sono una parte essenziale della vita di molte persone al giorno d'oggi. Dal momento che il loro aspetto molte cose sono cambiate. Viaggiando da un luogo all'altro è diventato più facile e veloce. </p>
+           </div>
+           <div class="footerOfAdv">
+             <p>Cars >> <span>Mustang</span></p>
+             <p class="date"><span class="day">Today </span><span class="time">11:01 pm</span></p>
+           </div>
+         </div>
+         
+          <div class="cell" data-background-color='' data-price='5.000.000'>
+           <div class="price">	&#8364;</div>
+           <div class="imgOfAdv"><img src="img/cars/super_car.jpg" width="100%" /></div>
+           <div class="contentOfAdv">
+             <p class="headOfcontentOfAdv">Super Car</p>
+             <p class="textOfAdv eng">Cars are an essential part of many people is lives nowadays. Since their appearance many things have changed. </p>
+             <p class="textOfAdv ital">Le automobili sono una parte essenziale della vita di molte persone al giorno d'oggi.  </p>
+           </div>
+           <div class="footerOfAdv">
+             <p>Cars >> <span>Super Car</span></p>
+             <p class="date"><span class="day">Today </span><span class="time">11:01 am</span></p>
+           </div>
+         </div>
+         
+          <div class="cell" data-background-color='' data-price=''>
+          <div class="price">	&#8364;</div>
+           <div class="imgOfAdv"><img src="img/cars/Audi_A4.jpg" width="100%" /></div>
+           <div class="contentOfAdv">
+             <p class="headOfcontentOfAdv">Audi A4</p>
+             <p class="textOfAdv eng">Cars are an essential part of many people is lives nowadays. Since their appearance many things have changed. Travelling from one place to another became easier and faster. Besides when we go by car, comfort during the trip is guaranteed. There are many types of cars: small, large, cargo сars, minivans, jeeps. All of them are multifunctional. </p>
+             <p class="textOfAdv ital">Le automobili sono una parte essenziale della vita di molte persone al giorno d'oggi. Dal momento che il loro aspetto molte cose sono cambiate. Viaggiando da un luogo all'altro è diventato più facile e veloce. Inoltre quando andiamo in macchina, il comfort durante il viaggio è garantito. Ci sono molti tipi di vetture: piccoli, grandi, сars carico, minivan, jeep. Tutti sono multifunzionali.  </p>
+           </div>
+           <div class="footerOfAdv">
+             <p>Cars >> <span>Audi</span></p>
+             <p class="date"><span class="day">Today </span><span class="time">11:01 am</span></p>
+           </div>
+         </div>
+         
+          <div class="cell" data-background-color='' data-price='22.000.000'>
+          <div class="price">	&#8364;</div>
+           <div class="imgOfAdv"><img src="img/cars/gaz_13.jpg" width="100%" /></div>
+           <div class="contentOfAdv">
+             <p class="headOfcontentOfAdv">Chayka</p>
+             <p class="textOfAdv eng">Cars are an essential part of many people is lives nowadays. Since their appearance many things have changed. Travelling from one place to another became easier and faster. Besides when we go by car, comfort during the trip is guaranteed. There are many types of cars: small, large, cargo сars, minivans, jeeps. All of them are multifunctional. First and the most important role of the car is driving to work and back. Many people in big cities live in the suburbs but work in the downtown. </p>
+             <p class="textOfAdv ital">Le automobili sono una parte essenziale della vita di molte persone al giorno d'oggi. Dal momento che il loro aspetto molte cose sono cambiate. Viaggiando da un luogo all'altro è diventato più facile e veloce. Inoltre quando andiamo in macchina, il comfort durante il viaggio è garantito. Ci sono molti tipi di vetture: piccoli, grandi, сars carico, minivan, jeep. Tutti sono multifunzionali. In primo luogo e il ruolo più importante della macchina sta guidando al lavoro e ritorno. Molte persone in grandi città vivono in periferia ma lavorano nel centro della città. </p>
+           </div>
+           <div class="footerOfAdv">
+             <p>Cars >> <span>Gaz</span></p>
+             <p class="date"><span class="day">Today </span><span class="time">11:01 am</span></p>
+           </div>
+         </div>         
+        </div>
+       
+     </div>
+   </div>
+   <div class="col-xs-3">
+     <div class="baners"><img src="img/baners/images.jpg"  /></div>
+     <div class="baners"><img src="img/baners/images2.jpg" /></div>
+     <div class="baners"><img src="img/baners/images3.jpg"  /></div>
+     <div class="baners"><img src="img/baners/images4.jpg"  /></div>
+     <div class="baners"><img src="img/baners/shina.png" /></div>
+   </div>
+ </div>
+
+
+</div>
+
+</body>
+</html>
